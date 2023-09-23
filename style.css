@@ -1,0 +1,37 @@
+#users{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(48, 5, 88);
+}
+.user{
+    mix-width: 200px;
+    background-color: chocolate;
+    margin: 10px;
+    padding: 10px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+#controls{
+    
+    display: flex;
+    margin-bottom: 20px;
+}
+button{
+    color: white;
+    background-color: teal; 
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#newUsersContainer{
+    margin: 50px auto;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+}

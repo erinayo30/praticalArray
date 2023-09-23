@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pratical</title>
+  
+</head>
+<body>
+
+    <div id="controls">
+        <button onclick="removeFirstUser()">Remove First User</button>
+        <button onclick="removeLastUser()">Remove Last User</button>
+        <button onclick=" window.location.reload()"> Refresh</button>
+    </div>
+
+<!-- new Users -->
+<div id="newUsersContainer">
+    <select name="" id="newUsers" onchange="getSelectedElement()">
+        <!-- <option >New Users</option> -->
+    </select>
+
+    <button onclick="addToStart()"> Add to Start</button>
+    <button onclick="addToEnd()">Add to the End</button>
+</div>
+<!-- Different Search -->
+    <!-- <input type="text" id="searchBox" onchange="searchUser()" size="50" placeholder="Search">
+    <input type="text" id="searchBox" onblur="searchUser()" size="50" placeholder="Search"> -->
+    <input type="text" id="searchBox" onkeyup="searchUser()" size="50" placeholder="Search">
+    <hr>
+
+    <div id="users">
+        <!-- <div class="user">user 1</div>
+        <div class="user">user 2</div>
+        <div class="user">user 3</div> -->
+    </div>
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>
